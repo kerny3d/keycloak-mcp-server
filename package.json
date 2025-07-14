@@ -1,7 +1,7 @@
 {
   "name": "keycloak-mcp-server",
-  "version": "1.0.0",
-  "description": "A comprehensive Model Context Protocol server for Keycloak administration, providing 30+ tools to manage users, realms, clients, roles, groups, sessions, and events directly from AI assistants",
+  "version": "2.0.0",
+  "description": "A comprehensive Model Context Protocol server for Keycloak administration, providing 80+ tools to manage users, realms, clients, roles, groups, sessions, events, organizations, protocol mappers, user attributes, client scopes, and identity providers directly from AI assistants",
   "main": "dist/index.js",
   "bin": {
     "keycloak-mcp-server": "dist/index.js"
@@ -32,7 +32,16 @@
     "user-management",
     "realms",
     "identity-management",
-    "iam"
+    "iam",
+    "organizations",
+    "protocol-mappers",
+    "client-scopes",
+    "identity-providers",
+    "sso",
+    "jwt",
+    "user-attributes",
+    "group-management",
+    "role-management"
   ],
   "author": "M0-AR <mohamad.ashmar.ai@gmail.com>",
   "license": "MIT",
